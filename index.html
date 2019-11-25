@@ -24,7 +24,7 @@
   
   
   <link rel="stylesheet" href="//at.alicdn.com/t/font_1038733_0xvrvpg9c0r.css">
-  <link rel="stylesheet" href="/ljy.github.io/css/style.css?v=1574347755368">
+  <link rel="stylesheet" href="/ljy.github.io/css/style.css?v=1574671254408">
 </head>
 
 <body class="mdui-drawer-body-left">
@@ -48,7 +48,7 @@
         </a>
     </div>
     <div class="nexmoe-count">
-        <div><span>Articles</span>1</div>
+        <div><span>Articles</span>2</div>
         <div><span>Tags</span>0</div>
         <div><span>Categories</span>0</div>
     </div>
@@ -68,7 +68,7 @@
             </div>
         </a>
         
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/ljy.github.io/https:/tomassky.github.io/" title="我的朋友">
+        <a class="nexmoe-list-item mdui-list-item mdui-ripple" href="/ljy.github.io/tomassky.github.io/" title="我的朋友">
             <i class="mdui-list-item-icon nexmoefont icon-unorderedlist"></i>
             <div class="mdui-list-item-content">
                 我的朋友
@@ -115,6 +115,40 @@
   <div id="nexmoe-content">
     <div class="nexmoe-primary">
         <section class="nexmoe-posts" id="brand-waterfall">
+    
+    <div class="nexmoe-post">
+        <a href="/ljy.github.io/2019/11/25/%E5%8D%87%E7%BA%A7CentOS%207%E7%9A%84Python/">
+            <div class="nexmoe-post-cover mdui-ripple"> 
+                
+                    <img src="https://i.loli.net/2019/01/13/5c3aec85a4343.jpg" alt="升级CentOS 7的Python">
+                
+                <h1>升级CentOS 7的Python</h1>
+            </div>
+        </a>
+        <div class="nexmoe-post-meta">
+            <a><i class="nexmoefont icon-calendar-fill"></i>2019年11月25日</a>
+            <a><i class="nexmoefont icon-areachart"></i>363 字</a>
+            <a><i class="nexmoefont icon-time-circle-fill"></i>大概 1 分钟</a>
+            
+            
+        </div>
+        <article>
+            
+            <h1 id="如何升级CentOS-7自带的Python版本？"><a href="#如何升级CentOS-7自带的Python版本？" class="headerlink" title="如何升级CentOS 7自带的Python版本？"></a>如何升级CentOS 7自带的Python版本？</h1><h3 id="1、首先查看一下自己本身的python版本"><a href="#1、首先查看一下自己本身的python版本" class="headerlink" title="1、首先查看一下自己本身的python版本"></a>1、首先查看一下自己本身的python版本</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python --version</span><br></pre></td></tr></table></figure>
+<h3 id="2、下载新版的python-这里的是3-7-4"><a href="#2、下载新版的python-这里的是3-7-4" class="headerlink" title="2、下载新版的python(这里的是3.7.4)"></a>2、下载新版的python(这里的是3.7.4)</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://www.python.org/ftp/python/3.7.4/Python-3.7.4.tgz</span><br></pre></td></tr></table></figure>
+<h3 id="3、解压该压缩包"><a href="#3、解压该压缩包" class="headerlink" title="3、解压该压缩包"></a>3、解压该压缩包</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf Python-3.7.4.tgz</span><br></pre></td></tr></table></figure>
+<h3 id="4、解压之后会有一个文件夹-Python-3-7-4-进去该文件夹进行配置"><a href="#4、解压之后会有一个文件夹-Python-3-7-4-进去该文件夹进行配置" class="headerlink" title="4、解压之后会有一个文件夹:Python-3.7.4,进去该文件夹进行配置"></a>4、解压之后会有一个文件夹:Python-3.7.4,进去该文件夹进行配置</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./configure</span><br></pre></td></tr></table></figure>
+<h3 id="5、编译安装"><a href="#5、编译安装" class="headerlink" title="5、编译安装"></a>5、编译安装</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">make</span><br><span class="line">然后</span><br><span class="line">make install</span><br></pre></td></tr></table></figure>
+<h3 id="6、查看一下现在的python版本，你会发现还是以前的"><a href="#6、查看一下现在的python版本，你会发现还是以前的" class="headerlink" title="6、查看一下现在的python版本，你会发现还是以前的"></a>6、查看一下现在的python版本，你会发现还是以前的</h3><h3 id="7、查看一下新装的python在哪里"><a href="#7、查看一下新装的python在哪里" class="headerlink" title="7、查看一下新装的python在哪里"></a>7、查看一下新装的python在哪里</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[root@localhost ~]# ll /usr/local/bin/python*</span><br><span class="line">lrwxrwxrwx 1 root root        9 Nov 25 10:43 /usr/local/bin/python3 -&gt; python3.7</span><br><span class="line">-rwxr-xr-x 2 root root 13983424 Nov 25 10:43 /usr/local/bin/python3.7</span><br><span class="line">lrwxrwxrwx 1 root root       17 Nov 25 10:43 /usr/local/bin/python3.7-config -&gt; python3.7m-config</span><br><span class="line">-rwxr-xr-x 2 root root 13983424 Nov 25 10:43 /usr/local/bin/python3.7m</span><br><span class="line">-rwxr-xr-x 1 root root     2902 Nov 25 10:43 /usr/local/bin/python3.7m-config</span><br><span class="line">lrwxrwxrwx 1 root root       16 Nov 25 10:43 /usr/local/bin/python3-config -&gt; python3.7-config</span><br></pre></td></tr></table></figure>
+<h3 id="8、备份一下原来的版本"><a href="#8、备份一下原来的版本" class="headerlink" title="8、备份一下原来的版本"></a>8、备份一下原来的版本</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv /usr/bin/python  /usr/bin/python.bak</span><br></pre></td></tr></table></figure>
+<h3 id="9、链接新的版本"><a href="#9、链接新的版本" class="headerlink" title="9、链接新的版本"></a>9、链接新的版本</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># ln -s /usr/local/bin/python3  /usr/bin/python</span><br></pre></td></tr></table></figure>
+<h3 id="10、此时再查看python版本，已经是Python-3-7-4了，但是yum会可能无法正常使用。下面解决一下。"><a href="#10、此时再查看python版本，已经是Python-3-7-4了，但是yum会可能无法正常使用。下面解决一下。" class="headerlink" title="10、此时再查看python版本，已经是Python 3.7.4了，但是yum会可能无法正常使用。下面解决一下。"></a>10、此时再查看python版本，已经是Python 3.7.4了，但是yum会可能无法正常使用。下面解决一下。</h3><h4 id="查看一下Python2在哪里"><a href="#查看一下Python2在哪里" class="headerlink" title="查看一下Python2在哪里"></a>查看一下Python2在哪里</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ll /usr/bin/python*</span><br></pre></td></tr></table></figure>
+<h4 id="用vi修改一下两个文件的头部"><a href="#用vi修改一下两个文件的头部" class="headerlink" title="用vi修改一下两个文件的头部"></a>用vi修改一下两个文件的头部</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/bin/yum和/usr/libexec/urlgrabber-ext-down</span><br></pre></td></tr></table></figure>
+<h4 id="将-usr-bin-python修改成"><a href="#将-usr-bin-python修改成" class="headerlink" title="将#!/usr/bin/python修改成"></a>将#!/usr/bin/python修改成</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/python2.7</span><br></pre></td></tr></table></figure>
+<h3 id="11、完成"><a href="#11、完成" class="headerlink" title="11、完成"></a>11、完成</h3>
+            
+        </article>
+    </div>
     
     <div class="nexmoe-post">
         <a href="/ljy.github.io/2019/11/21/javascript/">
@@ -405,7 +439,7 @@
 <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-<script src="/ljy.github.io/js/app.js?v=1574347755373"></script>
+<script src="/ljy.github.io/js/app.js?v=1574671254413"></script>
 <script src="https://cdn.jsdelivr.net/npm/lazysizes@5.1.0/lazysizes.min.js"></script>
 
 
